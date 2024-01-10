@@ -5,14 +5,14 @@
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Home from "./Home";
- export default class NavbarCmp extends Component{
+ export default class NavbarComp extends Component{
   render(){
     return (
     <Router>
       <div>
        <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/home">React-Bootstrap</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
