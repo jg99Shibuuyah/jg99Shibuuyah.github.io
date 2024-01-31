@@ -1,0 +1,15 @@
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    /* height: 50px; */
+    background-color: beige;
+}
+
+.footer-copyright{
+    justify-content: rights;
+}
+/* .navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 100%) !important; /* override background image gradient w/ flat color 
+}  */

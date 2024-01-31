@@ -8,6 +8,7 @@ function App() {
   return (
    <div className="App">
     <NavbarComp/>
+    <div>Need to put a container here </div>
     <Footer/>
   </div>
   // 
