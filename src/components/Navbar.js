@@ -15,7 +15,7 @@ import { BiHome } from "react-icons/bi";
       <div>
        <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand as={Link} to="/home"> <BiHome/></Navbar.Brand>
+            <Navbar.Brand as={Link} to="/"> <BiHome/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
@@ -41,10 +41,11 @@ import { BiHome } from "react-icons/bi";
       </div>
       <div>
         <Routes>
-          <Route path ="/home" element = {<Home />}/>
+          <Route path ="/" element = {<Home />}/>
           <Route path ="/resume" element = {<Resume />}/>
           <Route path ="/projects" element = {<Projects />}/> 
           <Route path ="/aboutMe"element = { <AboutMe/>}/>
+          
         </Routes>
       </div>
     </Router>
